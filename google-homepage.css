@@ -1,0 +1,165 @@
+.main {
+    display: flex;
+    background-color: gray;
+} 
+.centralContainer {
+    width: 50%;
+    height: 80%;
+    /*
+    background-color: #efefef;
+    */
+    border-radius: 20px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.glogoDIV {
+    
+    background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) center no-repeat;
+ 
+    width: 272px;
+    height: 92px;
+
+    /*border: 1px dotted cyan;*/
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -130%);
+    
+}
+.searchDIV {
+    width: 80%;
+    height: 40px;
+    
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+
+}
+.searchInput {
+    border: 1px solid #e0dddd;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: hidden;
+}
+.searchInput:hover {
+    box-shadow: 1px 6px 6px #a0a0a0;
+    border: none;
+    
+}
+.searchBtnContainer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+}
+.searchBtn {
+    
+    width: 16px;
+    height: 16px;
+    /*
+    border-radius: 50%;
+    background: url(search-13-32.png) center center no-repeat;
+    */
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    
+}
+.searchBtnContainer:hover {
+    box-shadow: 1px 2px 2px #a0a0a0;
+}
+.searchBtnContainer:active {
+    box-shadow: 0 6px 6px #a0a0a0;
+}
+
+.keyboardBtnContainer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%;
+}
+.keyboardBtn {
+    
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.keyboardBtnContainer:hover {
+    box-shadow: 1px 2px 2px #a0a0a0;
+}
+.keyboardBtnContainer:active {
+    box-shadow: 0 6px 6px #a0a0a0;
+}
+
+.searchBottomDIV {
+    width: 100%;
+    height: 60px;
+    
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    display: flex;
+
+    /*background-color: teal;*/
+
+    align-content: center;
+    justify-content: center;
+
+}
+.searchBottomBtn {
+    margin: 10px;
+    height: 40px;
+    width: 140px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid silver;
+    border-radius: 4px;
+    text-align: center;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.searchBottomBtn:hover {
+    box-shadow: 1px 2px 2px #a0a0a0;
+}
+.searchBottomBtn:active {
+    box-shadow: 0 6px 6px #a0a0a0;
+    color: dodgerblue;
+}
+.btnlab {
+    margin: auto;
+    /*border:1px solid white;*/
+    height: 20px;
+    
+}
