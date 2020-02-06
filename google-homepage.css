@@ -5,14 +5,16 @@
 .centralContainer {
     width: 50%;
     height: 80%;
-
+ /* 
+    background-color: #efefef;
     border-radius: 20px;
-
+*/
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 
 }
 .glogoDIV {
@@ -72,7 +74,10 @@
     
     width: 16px;
     height: 16px;
-    
+    /*
+    border-radius: 50%;
+    background: url(search-13-32.png) center center no-repeat;
+    */
     position: absolute;
     top: 60%;
     left: 60%;
@@ -125,9 +130,7 @@
 
     display: flex;
 
-    /*background-color: teal;*/
-
-    align-content: center;
+    align-items: center;
     justify-content: center;
 
 }
@@ -142,19 +145,14 @@
     text-align: center;
     
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 .searchBottomBtn:hover {
     box-shadow: 1px 2px 2px #a0a0a0;
+    cursor: pointer;
 }
 .searchBottomBtn:active {
-    box-shadow: 0 6px 6px #a0a0a0;
+    box-shadow: 0 6px 6px #a0a0cf;
     color: dodgerblue;
-}
-.btnlab {
-    margin: auto;
-    /*border:1px solid white;*/
-    height: 20px;
-    
 }
